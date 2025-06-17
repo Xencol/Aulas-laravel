@@ -27,7 +27,6 @@
 
     <link href="{{ asset("css/dashboard.css") }}" rel="stylesheet">
 
-safari-pinned-tab.svg
 
     <style>
         .bd-placeholder-img {
