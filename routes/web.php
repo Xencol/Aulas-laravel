@@ -14,6 +14,18 @@ Route::get('/', function () {
 
 Route::delete('/contatos/{contatoId}', [ContatosController::class, 'delete']) ->name('contatos.delete');
 
+// Rota de create - metodo get
+
+Route::get('/contatos/create', [ContatosController::class, 'create'])->name('contatos.create.get');
+
+// Rota de create - metodo post
+
+Route::post('/contatos/create', [ContatosController::class, 'create'])->name('contatos.create.post');
+
+
+
+
+
 Route::get('/index' , function (){
     return view('index');
 });
